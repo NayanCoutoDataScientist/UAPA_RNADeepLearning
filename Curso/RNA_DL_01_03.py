@@ -1,3 +1,5 @@
+# Redes Neurais e Deep Learning 01 e 02
+#%%
 # Minha Primeira Rede Neural
 import numpy as np
 import matplotlib.pyplot as plt
@@ -157,4 +159,17 @@ e^(-(m*x + b)) = 2 - 1 = 1
 x = b/m 
 """
 print(limiar_idade)
+#%%
+# Redes Neurais e Deep Learning 03
+"""
+Perceptron
+x1  --> w1  --v
+x2  --> w2  --> Wo  --> f(z) = {1, se z > 0} ou {0, se z <= 0}
+x3  --> w3  --^
+
+z = w1 * x1 + w2 * x2 + w3 * x3 + Wo
+
+wj = wj + D_wj
+D_wj = l * (y´ - y^´) * Xj
+"""
 #%%
