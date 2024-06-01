@@ -379,7 +379,7 @@ for i in range(epochs):
 
 import pandas as pd
 
-data = pd.read_csv(r"D:\Users\Nayan Couto\Cloud Drive\Documentos\Arquivos PDF, PPT, DOC\Ciências de Dados - Anhanguera Ampli\Inteligência Artificial\Redes Neurais e Deep Learning\RNA_Deep_Learning\Curso\diabetes.csv").values
+data = pd.read_csv(r"/Curso/datasets/diabetes.csv").values
 
 data.shape[0]
 #%%
